@@ -10,7 +10,12 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'This is first time for Nuxt.js to understand how it works' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css'
+      }
+
     ]
   },
   /*
